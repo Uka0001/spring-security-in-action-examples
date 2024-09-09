@@ -8,6 +8,7 @@
         <option value="$PROJECT_DIR$/authorization-server/pom.xml" />
         <option value="$PROJECT_DIR$/resource-server/pom.xml" />
         <option value="$PROJECT_DIR$/base-auth/pom.xml" />
+        <option value="$PROJECT_DIR$/bcrypt-auth/pom.xml" />
       </list>
     </option>
   </component>

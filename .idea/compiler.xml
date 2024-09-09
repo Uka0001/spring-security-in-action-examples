@@ -11,6 +11,7 @@
         <module name="resource-server" />
         <module name="authorization-server" />
         <module name="base-auth" />
+        <module name="bcrypt-auth" />
       </profile>
     </annotationProcessing>
   </component>
@@ -18,6 +19,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="authorization-server" options="-parameters" />
       <module name="base-auth" options="-parameters" />
+      <module name="bcrypt-auth" options="-parameters" />
       <module name="resource-server" options="-parameters" />
       <module name="sso-client" options="-parameters" />
     </option>

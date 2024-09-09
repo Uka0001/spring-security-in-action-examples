@@ -2,7 +2,7 @@ CREATE TABLE IF NOT EXISTS "user" (
                                       id SERIAL PRIMARY KEY,
                                       username VARCHAR(45) NOT NULL,
                                       password TEXT NOT NULL,
-                                      algorithm VARCHAR(45) NOT NULL
+                                      encryption_algorithm VARCHAR(45) NOT NULL
 );
 
 CREATE TABLE IF NOT EXISTS "authority" (
@@ -18,7 +18,7 @@ CREATE TABLE IF NOT EXISTS "product" (
                                          currency VARCHAR(45) NOT NULL
 );
 
-INSERT INTO "user" (id, username, password, algorithm) VALUES (1, 'john', '$2a$10$xn3LI/ AjqicFYZFruSwve.681477XaVNaUQbr1gioaWPn4t1KsnmG', 'BCRYPT')
+INSERT INTO "user" (id, username, password, encryption_algorithm) VALUES (1, 'john', '$2a$10$PVEL1N7UjuNTn1R41Pan6.I1xBlkCCO9Ov0LC7B0JKd8sNE8F65D.', 'BCRYPT')
 ON CONFLICT (id) DO NOTHING;
 
 INSERT INTO "authority" (id, name, "user") VALUES (1, 'READ', 1)

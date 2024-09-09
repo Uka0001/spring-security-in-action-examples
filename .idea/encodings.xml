@@ -3,6 +3,7 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/authorization-server/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/base-auth/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/bcrypt-auth/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/resource-server/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sso-client/src/main/java" charset="UTF-8" />
   </component>
